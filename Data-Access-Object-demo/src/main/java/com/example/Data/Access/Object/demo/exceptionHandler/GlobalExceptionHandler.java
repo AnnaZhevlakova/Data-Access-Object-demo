@@ -14,17 +14,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler {
       private static final Logger logger = LogManager.getLogger(GlobalExceptionHandler.class);
 
-   /* @ExceptionHandler(UserException.class)
-    public ResponseEntity<String> handlerAppException(UserException ex) throws Exception {
-        logger.error(String.format("message: %s | stackTrace: %s", ex.getMessage(), StackTraceUtil.getStackTraceAsString(ex)));
-
-        ObjectMapper mapper = new ObjectMapper();
-
-        String responseJson = mapper.writeValueAsString(new ErrorDto(ex.getMessage(), 400));
-        return ResponseEntity.badRequest().body(responseJson);
-
-    }*/
-
     @ExceptionHandler(Exception.class)
     public ResponseEntity<String> handlerGlobalException(Exception ex) throws Exception {
         logger.error(String.format("message: %s | stackTrace: %s", ex.getMessage(), StackTraceUtil.getStackTraceAsString(ex)));

@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4be1b2db-9abd-47fd-8b6f-95dade75eb36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/StackTraceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/ schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/get_products_by_customer_name.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/exceptionHandler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/exceptionHandler/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +37,7 @@
     "Application.DataAccessObjectDemoApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",

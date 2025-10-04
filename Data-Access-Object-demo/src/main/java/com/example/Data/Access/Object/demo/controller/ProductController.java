@@ -19,7 +19,7 @@ private ProductRepository productRepository;
  }
 
     @GetMapping("fetch-product")
-    public ResponseEntity<?> getUser(String name) throws Exception {
+    public ResponseEntity<?>fetchProductByСlientName(String name) throws Exception {
         var result = productRepository.fetchProductByСlientName(name);
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
