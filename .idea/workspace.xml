@@ -4,15 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be1b2db-9abd-47fd-8b6f-95dade75eb36" name="Changes" comment="" />
+    <list default="true" id="4be1b2db-9abd-47fd-8b6f-95dade75eb36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/StackTraceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/ schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/get_products_by_customer_name.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/exceptionHandler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/java/com/example/Data/Access/Object/demo/exceptionHandler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Access-Object-demo/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="33YKQeUZFfVnBI8zuUviuhB6Diu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,13 +43,20 @@
   "keyToString": {
     "Application.DataAccessObjectDemoApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.Data.Access.Object.demo" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
