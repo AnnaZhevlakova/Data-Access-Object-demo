@@ -14,11 +14,11 @@ import java.util.stream.Collectors;
 @Repository
 public class ProductRepository {
     private final NamedParameterJdbcTemplate jdbcTemplate;
-    private static String _fetchProductByСlientNameQuery;
+    private static String fetchProductByСlientNameQuery;
 
     static {
         try {
-            _fetchProductByСlientNameQuery = read("get_products_by_customer_name.sql");
+            fetchProductByСlientNameQuery = read("get_products_by_customer_name.sql");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -37,7 +37,7 @@ public class ProductRepository {
 
     public List<String> fetchProductByСlientName(String name) {
         var result = jdbcTemplate.queryForList(
-                _fetchProductByСlientNameQuery,
+                fetchProductByСlientNameQuery,
                 Map.of("name",name.toLowerCase()),
                 String.class);
         return result;
